@@ -1,0 +1,16 @@
+[package]
+name = "summarizer"
+version.workspace = true
+edition = "2021"
+
+[dependencies]
+terminator = { workspace = true }
+global-hotkey = "0.7"
+arboard = "3.3.0"
+serde_json = { workspace = true }
+anyhow = { workspace = true }
+tokio = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
+
+# We'll use windows-specific features from the terminator library 

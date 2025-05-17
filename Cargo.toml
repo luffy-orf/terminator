@@ -6,6 +6,7 @@ members = [
     "examples/terminator-rust-examples/popup",     # Assuming this is a crate
     "examples/terminator-rust-examples/server",    # Assuming this is the crate in the 'server' subdirectory
     "examples/terminator-rust-examples/win_automation", # Assuming this is the crate in the 'win_automation' subdirectory
+    "examples/summarizer", # Our new summarizer example
     # Add other crates from examples/terminator-rust-examples if they exist
 ]
 
